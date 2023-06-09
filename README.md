@@ -6,4 +6,4 @@ Tools :
  -pure css with file has variables have root of colors
 
 #Link
- https://template-reactbootstrp.netlify.app
+https://template-react-bootstrp.netlify.app/
