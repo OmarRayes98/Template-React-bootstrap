@@ -6,9 +6,11 @@ import {SectionHeader,SectionWrapper} from '../components/index';
 
 import mostPopularItems from '../Data/MostPopularData';
 
+
 const MostPopular = () => {
 
 
+    
 
     const cards = mostPopularItems.map(card =>{
         return (

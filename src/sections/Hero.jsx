@@ -1,9 +1,14 @@
 import '../assets/styles/Hero.css';
 import {PrimaryButton} from  '../components/index'
 
+
 const Hero = () => {
+
+    
 return (
-    <div className='hero-main'>
+    <div data-aos="zoom-in" data-aos-duration="1000" 
+    data-aos-delay="300"
+    className='hero-main'>
         <div className='hero-text'>
             <h6 className='hero-subtitle'>Welcome To Cyborg</h6>
             <h4 className='hero-title'><em>Broswe</em> Our Popular Games Here</h4>

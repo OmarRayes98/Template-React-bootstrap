@@ -3,9 +3,11 @@ import { Hero , MostPopular,GamingLibray} from '../sections/index';
 
 
 const Home = () => {
+
+
 return (
     <>
-        <Hero/>
+        <Hero />
         <MostPopular/>
         <GamingLibray/>
     </>

@@ -4,9 +4,16 @@ import './App.css'
 import {Container} from './components/index';
 import {Home ,Profile} from './Pages/index';
 import {Header ,Footer  } from './sections/index';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
 
   return (
   
